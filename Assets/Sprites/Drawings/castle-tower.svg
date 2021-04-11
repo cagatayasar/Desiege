@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="castle-tower.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-370.18838"
+     inkscape:cy="564.43061"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showborder="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:export-ydpi="27.036575"
+       inkscape:export-xdpi="27.036575"
+       inkscape:export-filename="C:\Users\cagat\projects\Desiege\Assets\Sprites\castle-tower-background.png"
+       id="path834"
+       style="fill:#757575;fill-opacity:1;stroke:none;stroke-width:0"
+       d="m 150.56615,-28.085575 c -31.13126,-4.5e-5 -56.368133,25.236832 -56.368092,56.368086 -4.1e-5,31.131253 25.236832,56.368137 56.368092,56.368085 31.13125,5.2e-5 56.36813,-25.23683 56.36808,-56.368085 5e-5,-31.131255 -25.23683,-56.368134 -56.36808,-56.368086 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="C:\Users\cagat\projects\Desiege\Assets\Sprites\castle-tower-walls.png"
+       id="path833"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 14.792895,-27.758512 c -26.422318,2.740141 -47.420856,23.7388898 -50.160762,50.161277 h 14.766541 C -18.015114,4.0844991 -3.5253015,-10.40554 14.792895,-12.991973 Z m 11.760005,0 v 14.766539 c 18.318438,2.586237 32.808502,17.0763028 35.394738,35.394738 H 76.714179 C 73.974255,-4.0197939 52.975461,-25.018591 26.5529,-27.758512 Z m -61.920767,61.920767 c 2.739906,26.422387 23.738444,47.421135 50.160762,50.161277 V 69.556993 C -3.5253016,66.970559 -18.015114,52.480521 -20.601326,34.162255 Z m 97.315505,0 C 59.361402,52.48069 44.871338,66.970755 26.5529,69.556993 V 84.323532 C 52.975461,81.58361 73.974255,60.584814 76.714179,34.162255 Z"
+       inkscape:export-xdpi="27.195993"
+       inkscape:export-ydpi="27.195993" />
+    <path
+       d="m -134.81717,100.0802 v 59.60153 h -59.60101 v 11.75949 h 59.60101 v 59.60152 h 11.76001 v -59.60152 h 59.60101 v -11.75949 h -59.60101 V 100.0802 Z"
+       style="fill:#c8b7b7;fill-opacity:1;stroke:#333333;stroke-width:0"
+       id="path880" />
+    <path
+       sodipodi:nodetypes="cccccccccc"
+       d="m -131.96079,-28.367259 c -31.11872,-4.5e-5 -56.34544,25.2266743 -56.3454,56.345396 -4e-5,31.118722 25.22668,56.345441 56.3454,56.345396 31.11872,4.7e-5 56.345442,-25.226673 56.345397,-56.345396 4.5e-5,-31.1187229 -25.226677,-56.345443 -56.345397,-56.345396 z m 0,16.924104 c 21.7718,-6.7e-5 39.421357,17.6494859 39.42129,39.421292 6.7e-5,21.771806 -17.64949,39.421359 -39.42129,39.421292 -21.77181,6.6e-5 -39.42136,-17.649486 -39.42129,-39.421292 -7e-5,-21.7718056 17.64948,-39.421358 39.42129,-39.421292 z"
+       style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0"
+       id="path882" />
+    <path
+       d="m 17.885213,138.65672 c -11.1498959,1.15621 -21.3318308,5.56561 -29.585791,12.26024 L 0.35915121,162.97669 C 5.4126812,159.24161 11.389439,156.68507 17.885213,155.71356 Z m 11.760005,0 v 17.05684 c 6.495669,0.9715 12.472585,3.52764 17.526063,7.26261 L 59.231008,150.91644 C 50.977093,144.22193 40.795,139.81292 29.645218,138.65672 Z m -49.66105,20.57549 c -6.694501,8.25392 -11.104041,18.43602 -12.260233,29.58579 h 17.057356 c 0.971488,-6.49569 3.527618,-12.47256 7.2626057,-17.52606 z m 87.562096,5.2e-4 -12.059729,12.05973 c 3.734853,5.05342 6.291138,11.02999 7.262606,17.52554 H 79.806497 C 78.650321,177.66837 74.240622,167.48659 67.546264,159.23273 Z m -99.822329,41.34476 c 1.156181,11.1497 5.565825,21.33192 12.260233,29.58579 L -7.9561033,218.10354 C -11.691054,213.05 -14.247817,207.07325 -15.219226,200.57749 Z m 95.025722,0 c -0.971431,6.49589 -3.528036,12.47296 -7.263122,17.52658 l 12.059729,12.05973 c 6.694551,-8.25394 11.104039,-18.43648 12.260233,-29.58631 z M 0.35915121,226.41932 -11.700578,238.47905 c 8.2539314,6.69454 18.4359681,11.10353 29.585791,12.25971 V 233.68194 C 11.389544,232.71045 5.4126293,230.15431 0.35915121,226.41932 Z m 46.81212979,0 c -5.053478,3.73499 -11.030394,6.29113 -17.526063,7.26262 v 17.05682 c 11.149825,-1.15618 21.331859,-5.56517 29.58579,-12.25971 z"
+       style="fill:#393939;fill-opacity:1;stroke:#333333;stroke-width:0"
+       id="path844" />
+  </g>
+</svg>
