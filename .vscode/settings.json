@@ -1,4 +1,4 @@
-﻿{
+{
     "files.exclude":
     {
         "**/.DS_Store":true,
@@ -52,5 +52,12 @@
         "ProjectSettings/":true,
         "temp/":true,
         "Temp/":true
-    }
+    },
+    "workbench.colorCustomizations": {
+        "[Ayu One]": {
+            "editorGutter.addedBackground": "#93c267",
+            "editorGutter.modifiedBackground": "#5e8da3",
+            "editorGutter.deletedBackground": "#c54444",
+        }
+    },
 }
