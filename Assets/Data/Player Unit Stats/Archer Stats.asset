@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: Archer Stats
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: d6e71373d6366a1489472ba23f6f25c4, type: 3}
+  targetsSprite: {fileID: 21300000, guid: 10dd168689a602e409b828d4fe96029b, type: 3}
   unitName: Archer
+  deployOtherDescription: Targets only the closest enemy.
+  orderDescription: Deal 2 damage to an enemy.
+  cost: 1
   hp: 1
   damage: 1
   targetsOnlyTheFirst: 1

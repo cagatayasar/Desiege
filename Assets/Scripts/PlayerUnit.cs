@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum UnitType {
+    Null,
     Archer,
     Cavalry,
     Knight,

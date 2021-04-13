@@ -22,22 +22,22 @@ public class BattlefieldArea : MonoBehaviour//, IPointerEnterHandler, IPointerEx
     [HideInInspector]
     public PlayerUnit playerUnit;
     public float hideDeploymentImageAfter;
-    private float deploymentImageTimer;
+    // private float deploymentImageTimer;
     private bool deploymentImageActive;
 
     private float gridLinesTimer;
     private bool gridLinesActive;
 
     void Update() {
-        if (deploymentImageActive) {
-            if (deploymentImageTimer >= hideDeploymentImageAfter) {
-                deploymentImageTimer = 0f;
-                deploymentImageActive = false;
-                deploymentImage.SetActive(false);
-            } else {
-                deploymentImageTimer += Time.deltaTime;
-            }
-        }
+        // if (deploymentImageActive) {
+        //     if (deploymentImageTimer >= hideDeploymentImageAfter) {
+        //         deploymentImageTimer = 0f;
+        //         deploymentImageActive = false;
+        //         deploymentImage.SetActive(false);
+        //     } else {
+        //         deploymentImageTimer += Time.deltaTime;
+        //     }
+        // }
     }
 
     public void PlacePlayerUnit(PlayerUnit playerUnit) {
@@ -61,9 +61,16 @@ public class BattlefieldArea : MonoBehaviour//, IPointerEnterHandler, IPointerEx
 
     public void ShowDeploymentImage() {
         if (!deploymentImageActive) {
-            deploymentImageTimer = 0f;
+            // deploymentImageTimer = 0f;
             deploymentImageActive = true;
             deploymentImage.SetActive(true);
+        }
+    }
+
+    public void HideDeploymentImage() {
+        if (deploymentImageActive) {
+            deploymentImageActive = false;
+            deploymentImage.SetActive(false);
         }
     }
 

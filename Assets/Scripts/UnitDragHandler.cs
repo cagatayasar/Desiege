@@ -30,6 +30,8 @@ public class UnitDragHandler : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     public void OnPointerDown(PointerEventData eventData) {
         if (eventData.button == PointerEventData.InputButton.Left) {
+            bool success = Player.instance.StartDragging(index);
+            if (!success) return;
             dragging = true;
             Player.instance.dragging = true;
             slotInitialPosition = transform.position;
@@ -39,7 +41,7 @@ public class UnitDragHandler : MonoBehaviour, IPointerEnterHandler, IPointerExit
     }
 
     public void OnPointerUp(PointerEventData eventData) {
-        if (eventData.button == PointerEventData.InputButton.Left) {
+        if (eventData.button == PointerEventData.InputButton.Left && dragging) {
             dragging = false;
             Player.instance.dragging = false;
             Player.instance.PlayUnitAt(index, transform.position);

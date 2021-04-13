@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: Knight Stats
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 7546c13234d2c8e4191c1fbb5747533d, type: 3}
+  targetsSprite: {fileID: 21300000, guid: f07b3cd6ff6c56e4097236f5c7559533, type: 3}
   unitName: Knight
+  deployOtherDescription: Has +1 damage inside the castle.
+  orderDescription: Sweep a row, dealing 1 damage per area.
+  cost: 2
   hp: 3
   damage: 1
   targetsOnlyTheFirst: 0

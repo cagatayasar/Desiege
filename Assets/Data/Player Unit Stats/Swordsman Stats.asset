@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: Swordsman Stats
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 5da4248bebbe3ec42b761ec29b0afb7f, type: 3}
+  targetsSprite: {fileID: 21300000, guid: 39f7d37c16810f741927332d38c2180b, type: 3}
   unitName: Swordsman
+  deployOtherDescription: 
+  orderDescription: Give 2 health points to an ally unit.
+  cost: 1
   hp: 3
   damage: 1
   targetsOnlyTheFirst: 0

@@ -13,9 +13,9 @@ public enum AreaType {
     NotUsed
 }
 
-public class BattlefieldManager : MonoBehaviour
+public class Battlefield : MonoBehaviour
 {
-    public static BattlefieldManager instance;
+    public static Battlefield instance;
 
     public GameObject battlefieldRowPrefab;
     public GameObject battlefieldAreaPrefab;
@@ -30,6 +30,7 @@ public class BattlefieldManager : MonoBehaviour
     public List<string> battlefieldStructure;
     [HideInInspector]
     public List<List<BattlefieldArea>> areas;
+    private BattlefieldArea lastHoveredArea;
 
     private bool boundariesHasBeenSet;
     private float boundaryLeft;
@@ -66,8 +67,8 @@ public class BattlefieldManager : MonoBehaviour
                         continue;
                     }
                     var areaType = ConvertToAreaType(battlefieldStructure[i][j]);
-                    area.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = battlefieldStructure[i][j].ToString();
                     var battlefieldArea = area.GetComponent<BattlefieldArea>();
+                    battlefieldArea.areaTypeText.text = battlefieldStructure[i][j].ToString();
                     battlefieldArea.SetAreaType(areaType);
                     battlefieldArea.ShowGridLines(j != (battlefieldColCount - 1), i != 0);
                     gridLineMaterial.color = new Color(1f, 1f, 1f, 0f);
@@ -81,7 +82,7 @@ public class BattlefieldManager : MonoBehaviour
     void Start() {
     }
 
-    public void PlacePlayerUnitAt(UnitType unitType, Vector3 position)
+    public bool PlacePlayerUnitAt(UnitType unitType, Vector3 position)
     {
         gridLineMaterial.color = new Color(1f, 1f, 1f, 0f);
 
@@ -99,8 +100,10 @@ public class BattlefieldManager : MonoBehaviour
             {
                 var playerUnit = new PlayerUnit(unitType);
                 area.PlacePlayerUnit(playerUnit);
+                return true;
             }
         }
+        return false;
     }
 
     public void DragPlayerUnitAt(UnitType unitType, Vector3 position)
@@ -130,9 +133,21 @@ public class BattlefieldManager : MonoBehaviour
             if (area.areaType != AreaType.CastleGate &&
                 area.areaType != AreaType.NotUsed &&
                 area.playerUnit == null) {
-                area.ShowDeploymentImage();
+                
+                if (area != lastHoveredArea) {
+                    lastHoveredArea?.HideDeploymentImage();
+                    lastHoveredArea = area;
+                    area.ShowDeploymentImage();
+                }
             }
-            // Debug.Log("Drag to: (" + (rowIndex+1) + ", " + (colIndex+1) + ")");
+            else {
+                lastHoveredArea?.HideDeploymentImage();
+                lastHoveredArea = null;
+            }
+        }
+        else {
+            lastHoveredArea?.HideDeploymentImage();
+            lastHoveredArea = null;
         }
     }
 

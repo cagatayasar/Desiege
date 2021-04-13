@@ -17,7 +17,13 @@ public class TargetCoordinate {
 public class PlayerUnitStats : ScriptableObject
 {
     public Sprite sprite;
+    public Sprite targetsSprite;
     public string unitName;
+    [TextArea]
+    public string deployOtherDescription;
+    [TextArea]
+    public string orderDescription;
+    public int cost;
     public int hp;
     public int damage;
     public bool targetsOnlyTheFirst;

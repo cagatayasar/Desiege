@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: Cavalry Stats
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: bb5e67949a06a8c4f8e194edb04a18e4, type: 3}
+  targetsSprite: {fileID: 21300000, guid: 42106d707df74b34ba78338a120e8e74, type: 3}
   unitName: Cavalry
+  deployOtherDescription: Has +1 damage outside the castle.
+  orderDescription: Sweep a column, dealing 1 damage per area.
+  cost: 2
   hp: 3
   damage: 1
   targetsOnlyTheFirst: 0

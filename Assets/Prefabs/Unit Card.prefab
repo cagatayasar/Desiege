@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6078162332785677991}
   - component: {fileID: 6078162332785678040}
   - component: {fileID: 8061324336501913357}
+  - component: {fileID: 3107935799831304392}
   m_Layer: 5
   m_Name: Unit Card
   m_TagString: Untagged
@@ -36,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.3, y: 0.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6078162332785677991
 CanvasRenderer:
@@ -85,5 +86,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 782ab02ab7e189e42911fd5574529eaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 0
+--- !u!114 &3107935799831304392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6078162332785678042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b124e3fccf84fc54198acb610a363443, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
